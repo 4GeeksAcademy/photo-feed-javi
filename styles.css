@@ -1,0 +1,65 @@
+body {
+    /*background:rgb(219, 219, 219);*/
+    background-image: url("https://images3.alphacoders.com/601/thumb-1920-601862.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+.encabezado {
+    background-color:rgba(255,255,255,0.7);
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-family: "Bebas Neue";
+    font-size: 25px;
+}
+
+div.encabezado h1 {
+    width: 600px;
+} 
+
+.feed {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.post {
+    width: 600px;
+    background: white;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+div.post-header h2 {
+    font-family: "Host Grotesk";
+    font-size: 30px;
+}
+
+.post-image img {
+    width: 600px;
+    height: auto;
+}
+
+.post-text {
+    padding: 0 10px;
+    font-family: "Hind Siliguri";
+
+}
+
+span {
+    color: rgb(158, 158, 158);
+}
